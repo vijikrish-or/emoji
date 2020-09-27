@@ -1,1 +1,1 @@
-web gunicorn emoji:app
+web: gunicorn emoji:app
