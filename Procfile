@@ -1,1 +1,1 @@
-web:gunicorn Emoji-flask:app
+web gunicorn Emoji-flask:app
