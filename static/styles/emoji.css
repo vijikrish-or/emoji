@@ -1,0 +1,15 @@
+h1{
+    font-family:impact;
+    color:blue;
+    text-align:center;
+    width:900px;
+}
+#creset{
+    background-color:red;
+    color:black;
+}
+#emojidiv{
+    background-color:gray;
+    text-align:center;
+    width:900px;
+}

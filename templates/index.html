@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+        <link rel="stylesheet" type="text/css" href="/static/styles/emoji.css">
+        <title>How do you feel today?</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.7.15/c3.min.js"></script>
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+    </head>
+    <body>
+        <h1>How do you feel today?</h1>
+        <div id="emodiv">
+            <div id='emojidiv'>
+                <input type=image class="emo" id="hf" src="/static/images/happyface.jpg">
+                <input type=image class="emo" id="mf" src="/static/images/meh.jpg">
+                <input type=image class="emo" id="sf" src="/static/images/sadface.jpg">
+            </div>
+            <br>
+            <br>
+            <div id="fresult"></div>
+            <div id="fchart"></div>
+            <br>
+            <button id='creset'>Count Reset</button>
+        </div>
+        <script src="/static/jsfiles/emoji.js"></script>
+    </body>
+</html>
